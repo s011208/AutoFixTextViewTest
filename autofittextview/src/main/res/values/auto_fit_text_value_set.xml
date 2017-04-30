@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="size_type_title">
+        <item>50dp</item>
+        <item>44dp</item>
+        <item>30dp</item>
+    </array>
+    <array name="size_type_sub_title">
+        <item>40dp</item>
+        <item>32dp</item>
+        <item>28dp</item>
+    </array>
+    <array name="size_type_list_main_item">
+        <item>45dp</item>
+        <item>40dp</item>
+        <item>36dp</item>
+    </array>
+    <array name="size_type_list_sub_item">
+        <item>45dp</item>
+        <item>40dp</item>
+        <item>36dp</item>
+    </array>
+    <array name="size_type_indicator">
+        <item>50dp</item>
+        <item>40dp</item>
+        <item>30dp</item>
+    </array>
+    <array name="size_type_number_in_list">
+        <item>60dp</item>
+        <item>50dp</item>
+        <item>40dp</item>
+        <item>30dp</item>
+        <item>20dp</item>
+        <item>10dp</item>
+    </array>
+</resources>

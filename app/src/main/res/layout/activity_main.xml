@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:AutoFitTextView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bj4.yhh.autofixtextviewtest.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <bj4.yhh.autofittextview.AutoFitTextView
+            android:id="@+id/autofit_default"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="test"
+            android:textSize="42dp"
+            AutoFitTextView:textType="typeDefault" />
+
+        <bj4.yhh.autofittextview.AutoFitTextView
+            android:id="@+id/autofit_mainitem"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="test"
+            AutoFitTextView:textType="typeListMainItem" />
+
+        <bj4.yhh.autofittextview.AutoFitTextView
+            android:id="@+id/autofit_number_in_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="test"
+            AutoFitTextView:textType="typeNumberInList" />
+
+        <bj4.yhh.autofittextview.AutoFitTextView
+            android:id="@+id/autofit_sub_title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="test"
+            AutoFitTextView:textType="typeSubTitle" />
+
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AutoFitTextView">
+        <attr name="textType" />
+    </declare-styleable>
+
+    <attr name="textType" format="integer">
+        <enum name="typeDefault" value="0" />
+        <enum name="typeTitle" value="1" />
+        <enum name="typeSubTitle" value="2" />
+        <enum name="typeListMainItem" value="3" />
+        <enum name="typeListSubItem" value="4" />
+        <enum name="typeIndicator" value="5" />
+        <enum name="typeNumberInList" value="6" />
+    </attr>
+</resources>
